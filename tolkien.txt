@@ -27,7 +27,7 @@ BackgroundColors = bars:bars
 
 BarData =
  bar:JRR text:"J. R. R. Tolkien"
- bar:Chris text:"Chris Tolkien"
+ bar:Chris text:"Christopher Tolkien"
 
 PlotData=
  width: 20
@@ -49,13 +49,13 @@ LineData =
  at:28/10/1983 color:home    # The Book of Lost Tales 1
  at:16/08/1984 color:home    # The Book of Lost Tales 2
  at:22/08/1985 color:home    # The Lays of Beleriand
- at:01/06/1986 color:home    # The Shaping of Middle-earth
- at:01/06/1987 color:home    # The Lost Road and Other Writings
- at:01/06/1988 color:home    # The Return of the Shadow (The History of The Lord of the Rings vol. 1)
- at:01/06/1989 color:home    # The Treason of Isengard (The History of The Lord of the Rings vol. 2)
- at:01/06/1990 color:home    # The War of the Ring (The History of The Lord of the Rings vol. 3)
- at:01/06/1992 color:home    # Sauron Defeated (The History of The Lord of the Rings vol. 4)
- at:01/06/1993 color:home    # Morgoth's Ring (The Later Silmarillion vol. 1)
+ at:21/08/1986 color:home    # The Shaping of Middle-earth
+ at:27/08/1987 color:home    # The Lost Road and Other Writings
+ at:25/08/1988 color:home    # The Return of the Shadow (The History of The Lord of the Rings vol. 1)
+ at:07/09/1989 color:home    # The Treason of Isengard (The History of The Lord of the Rings vol. 2)
+ at:23/08/1990 color:home    # The War of the Ring (The History of The Lord of the Rings vol. 3)
+ at:06/01/1992 color:home    # Sauron Defeated (The History of The Lord of the Rings vol. 4)
+ at:23/09/1993 color:home    # Morgoth's Ring (The Later Silmarillion vol. 1)
  at:01/06/1994 color:home    # The War of the Jewels (The Later Silmarillion vol. 2)
  at:01/06/1996 color:home    # The Peoples of Middle-earth
  at:16/04/2007 color:hurin   # The Children of Hurin
