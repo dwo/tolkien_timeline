@@ -1,0 +1,63 @@
+ImageSize = width:1400 height:auto barincrement:50
+PlotArea = left:0 bottom:90 top:0 right:0
+AlignBars = justify
+DateFormat = dd/mm/yyyy
+Period = from:01/01/1890 till:31/01/2021
+TimeAxis = orientation:horizontal format:yyyy
+Legend = orientation:vertical position:bottom columns:4
+ScaleMajor = increment:5 start:1890
+ScaleMinor = increment:1 start:1891
+
+Colors =
+ id:bars     value:gray(0.95)
+ id:lifespan value:gray(0.5)    legend:Lifespan
+ id:hobbit   value:red          legend:The_Hobbit_(1937,_1951,_1966)
+ id:lotr     value:orange       legend:The_Lord_of_the_Rings_(1954-55)
+ id:tom      value:yellow       legend:Adventures_of_Tom_Bombadil_(1962)
+ id:road     value:dullyellow   legend:The_Road_Goes_Ever_On_(1967)
+ id:lotrsv   value:orange       legend:LotR_single_volume_(1968)
+ id:sil      value:yellowgreen  legend:The_Silmarillion_(1977)
+ id:utales   value:green        legend:Unfinished_Tales_(1980)
+ id:home     value:blue         legend:History_of_Middle_Earth_(1983-96)
+ id:hurin    value:darkblue     legend:The_Children_of_Hurin_(2007)
+ id:beren    value:lightpurple  legend:Beren_and_Luthien_(2017)
+ id:gondo    value:purple       legend:The_Fall_of_Gondolin_(2018)
+
+BackgroundColors = bars:bars
+
+BarData =
+ bar:JRR text:"J. R. R. Tolkien"
+ bar:Chris text:"Chris Tolkien"
+
+PlotData=
+ width: 20
+ bar:JRR    from:03/01/1892 till:02/09/1973 color:lifespan
+ bar:Chris  from:21/11/1924 till:16/01/2020 color:lifespan
+
+LineData =
+ at:21/09/1937 color:hobbit  # Hobbit: 1st Edition
+ at:01/06/1951 color:hobbit  #         2nd Edition
+ at:01/06/1966 color:hobbit  #         3rd Edition
+ at:29/07/1954 color:lotr    # Lord of the Rings: Fellowship
+ at:11/11/1954 color:lotr    #                    Two Towers
+ at:02/06/1955 color:lotr    #                    Return
+ at:01/06/1962 color:tom     # Adventures of Tom Bombadil
+ at:31/10/1967 color:road    # The Road Goes Ever On
+ at:01/06/1968 color:lotrsv  # Lord of the Rings: Single-volume
+ at:15/09/1977 color:sil     # Silmarillion
+ at:21/08/1980 color:utales  # Unfinished Tales
+ at:28/10/1983 color:home    # The Book of Lost Tales 1
+ at:16/08/1984 color:home    # The Book of Lost Tales 2
+ at:22/08/1985 color:home    # The Lays of Beleriand
+ at:01/06/1986 color:home    # The Shaping of Middle-earth
+ at:01/06/1987 color:home    # The Lost Road and Other Writings
+ at:01/06/1988 color:home    # The Return of the Shadow (The History of The Lord of the Rings vol. 1)
+ at:01/06/1989 color:home    # The Treason of Isengard (The History of The Lord of the Rings vol. 2)
+ at:01/06/1990 color:home    # The War of the Ring (The History of The Lord of the Rings vol. 3)
+ at:01/06/1992 color:home    # Sauron Defeated (The History of The Lord of the Rings vol. 4)
+ at:01/06/1993 color:home    # Morgoth's Ring (The Later Silmarillion vol. 1)
+ at:01/06/1994 color:home    # The War of the Jewels (The Later Silmarillion vol. 2)
+ at:01/06/1996 color:home    # The Peoples of Middle-earth
+ at:16/04/2007 color:hurin   # The Children of Hurin
+ at:01/06/2017 color:beren   # Beren and Luthien
+ at:30/08/2018 color:gondo   # Fall of Gondolin
