@@ -11,7 +11,7 @@ ScaleMinor = increment:1 start:1891
 Colors =
  id:bars     value:gray(0.95)
  id:lifespan value:gray(0.5)    legend:Lifespan
- id:hobbit   value:red          legend:The_Hobbit_(1937,_1951,_1966)
+ id:hobbit   value:red          legend:The_Hobbit_(1937)
  id:lotr     value:orange       legend:The_Lord_of_the_Rings_(1954-55)
  id:tom      value:yellow       legend:Adventures_of_Tom_Bombadil_(1962)
  id:road     value:dullyellow   legend:The_Road_Goes_Ever_On_(1967)
